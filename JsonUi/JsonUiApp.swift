@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct JsonUiApp: App {
+    let loader: Loader
+    
+    init () {
+        self.loader = Loader()
+    }
   
   var body: some Scene {
     WindowGroup {

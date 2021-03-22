@@ -9,5 +9,5 @@ import SwiftUI
 
 class LayoutData: ObservableObject {
   
-  @Published var table: Navigation = Navigation(view: Table(rows: []))
+    @Published var text: PhxText = PhxText(content: "Hello")
 }
